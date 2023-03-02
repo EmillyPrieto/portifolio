@@ -1,0 +1,31 @@
+html{
+    line-height: 1.15;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+body{
+      -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+font-size: xx-large;
+font-style: oblique;
+font-family: Georgia, 'Times New Roman', Times, serif;
+background-color: rgb(236, 160, 160);
+color: rgb(253, 230, 230);
+}
+.titulo{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  
+}
+p{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.logo-git{
+  color: rgb(255, 255, 255);
+}

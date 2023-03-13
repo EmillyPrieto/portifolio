@@ -7,14 +7,16 @@ tml{
     user-select: none;
 }
 body{
-      -webkit-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-font-size: xx-large;
-font-style: oblique;
-font-family: Georgia, 'Times New Roman', Times, serif;
-background-color: rgba(173, 70, 123, 0.829);
-color: rgb(233, 229, 223);
+  text-align: center;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-size: xx-large;
+  font-style: oblique;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(233, 229, 223);
+  background-image: linear-gradient(to top, rgb(194, 114, 248), rgba(247, 238, 111, 0.849));
+  
 }
 .titulo{
   display: flex;

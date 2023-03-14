@@ -14,8 +14,8 @@ body{
   font-size: xx-large;
   font-style: oblique;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  color: rgb(233, 229, 223);
-  background-image: linear-gradient(to top, rgb(194, 114, 248), rgba(247, 238, 111, 0.849));
+  color: rgb(0, 0, 0);
+  background-image: linear-gradient(to top, rgb(158, 121, 218), rgb(158, 121, 218));
   
 }
 .titulo{
@@ -29,9 +29,17 @@ p{
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .logo-git{
-  display: flex;
+  display: inline-block;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  color:rgb(233, 229, 223)
+  color:rgb(0, 0, 0)
+}
+
+.logoinsta{ 
+  display: inline-block;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  color: black;
 }
